@@ -1,0 +1,260 @@
+@impor url('https: //fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html, body{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  width: 100%;
+  height: 900%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+.wea{
+width: 100%;
+max-width: 1500px;
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+.wea .card{
+width: 330px;
+height: 430px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+margin: 20px;
+text-align: center;
+transition: all 0.25s;
+}
+.wea .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.wea . card img{
+  width: 330px;
+  height: 220px;
+}
+.wea .card h4{
+  font-weight: 600;
+}
+.wea .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+.wea .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+.title{
+  color: orangered;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(posible.jpg);
+}
+.contenedor{
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+
+}
+input{
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  width: 0;
+  padding:0 20px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #FF009D ;
+  transition: all .7s ease;
+}
+::placeholder {
+  color: grey;
+}
+.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  background: #FF5EC3;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+.btn i{
+  font-size: 25px;
+  color: white;
+  line-height: 80px;
+  transition: all .7s ease;
+
+}
+.contenedor:hover input{
+width: 350px;
+}
+.container:hover i {
+  transform: rotate(-360deg);
+}
+.btn:hover{
+  background: #FF00A3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  min-height: 100vh;
+  display: table;
+  justify-content: center;
+  align-items: upside;
+
+}
+.container span{
+ font-size: 90pt;
+ font-weight: bold;
+ position: relative;
+ font-family: "Fredoka One";
+ cursor: pointer;
+ transition: all 300ms ease-in-out;
+}
+.container span::before {
+  content: var(--l);
+  position: absolute;
+  transform: scale(1.1);
+  filter: blur(15px);
+}
+.container span::after{
+  content: var(--l);
+  position: absolute;
+  top: 70%;
+  left: 0;
+  filter: blur(30px);
+  transform: rotateX(50deg);
+}
+.container span:hover{
+  filter: contrast(250%);
+}
+.container span:nth-child(1){
+ color:#00FF7D  ;
+}
+.container span:nth-child(2){
+ color:#00FFC4 ;
+}
+.container span:nth-child(3){
+ color:#00F4FF ;
+}
+.container span:nth-child(4){
+ color:#00A3FF ;
+}
+.container span:nth-child(5){
+ color:#0044FF ;
+}
+.container span:nth-child(6){
+ color:#6A00FF ;
+}
+.container span:nth-child(7){
+ color:#A100FF ;
+}
+.container span:nth-child(8){
+ color:#E800FF ;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: url(imagen2.jpg);
+}
+.contenedor{
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+
+}
+input{
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  width: 0;
+  padding:0 20px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #FF009D ;
+  transition: all .7s ease;
+}
+::placeholder {
+  color: grey;
+}
+.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  background: #FF5EC3;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+.btn i{
+  font-size: 25px;
+  color: white;
+  line-height: 80px;
+  transition: all .7s ease;
+
+}
+.contenedor:hover input{
+width: 350px;
+}
+.container:hover i {
+  transform: rotate(-360deg);
+}
+.btn:hover{
+  background: #FF00A3;
+}
